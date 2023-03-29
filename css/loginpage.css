@@ -1,0 +1,195 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('font/Pretendard-ExtraBold.eot');
+    src: url('font/Pretendard-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('font/Pretendard-ExtraBold.woff2') format('woff2'),
+        url('font/Pretendard-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('font/Pretendard-Light.eot');
+    src: url('font/Pretendard-Light.eot?#iefix') format('embedded-opentype'),
+        url('font/Pretendard-Light.woff2') format('woff2'),
+        url('font/Pretendard-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('font/Pretendard-ExtraLight.eot');
+    src: url('font/Pretendard-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('font/Pretendard-ExtraLight.woff2') format('woff2'),
+        url('font/Pretendard-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('font/Pretendard-Regular.eot');
+    src: url('font/Pretendard-Regular.eot?#iefix') format('embedded-opentype'),
+        url('font/Pretendard-Regular.woff2') format('woff2'),
+        url('font/Pretendard-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('font/Pretendard-Medium.eot');
+    src: url('font/Pretendard-Medium.eot?#iefix') format('embedded-opentype'),
+        url('font/Pretendard-Medium.woff2') format('woff2'),
+        url('font/Pretendard-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('font/Pretendard-SemiBold.eot');
+    src: url('font/Pretendard-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('font/Pretendard-SemiBold.woff2') format('woff2'),
+        url('font/Pretendard-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('font/Pretendard-Thin.eot');
+    src: url('font/Pretendard-Thin.eot?#iefix') format('embedded-opentype'),
+        url('font/Pretendard-Thin.woff2') format('woff2'),
+        url('font/Pretendard-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('font/Pretendard-Bold.eot');
+    src: url('font/Pretendard-Bold.eot?#iefix') format('embedded-opentype'),
+        url('font/Pretendard-Bold.woff2') format('woff2'),
+        url('font/Pretendard-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('font/Pretendard-Black.eot');
+    src: url('font/Pretendard-Black.eot?#iefix') format('embedded-opentype'),
+        url('font/Pretendard-Black.woff2') format('woff2'),
+        url('font/Pretendard-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border;
+}
+
+body {
+    font-family: 'Pretendard';
+    line-height: 1;
+    color: #333;
+}
+
+/* 📢📢.cont01📢📢 */
+
+.cont01 {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.cont01 h1 figure {
+    height: 500px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.cont01 h1 figure img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* 📢📢.cont02📢📢 */
+
+.cont02 {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.cont02 .login {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.cont02 .login form {
+    width: 100%;
+}
+
+.cont02 .login form h3 {
+    font-size: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.cont02 .login form fieldset {
+    padding: 40px;
+    text-align: center;
+    font-size: 23px;
+}
+
+.cont02 .login form fieldset div {
+    margin: 20px 0;
+}
+
+.cont02 .login form fieldset div label:nth-of-type(1),
+.cont02 .login form fieldset div label:nth-of-type(2) {
+    position: absolute;
+    left: -99999999999px;
+}
+
+.cont02 .login form fieldset div input[type="text"],.cont02 .login form fieldset div input[type="password"] {
+    width: 500px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid #333;
+    font-size: 19px;
+}
+
+.cont02 .login form fieldset div select {
+    width: 300px;
+    height: 30px;
+    font-size: 19px;
+    text-align: center;
+}
+.cont02 .login form fieldset input[type="submit"] {
+    width: 500px;
+    height: 40px;
+    font-size: 23px;
+    background-color: #ca002a;
+    color: #fff;
+    font-weight: 600;
+    border-style: none;
+    border-radius: 20px;
+}
